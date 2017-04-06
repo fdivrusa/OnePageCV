@@ -3,13 +3,9 @@ body {
 
 	font-family: Arial, sans-serif; 
 	background-color: rgb(39, 39, 39);
-	margin: 0px;
+	margin: 0;
 }
 
-* {
-
-	box-sizing: border-box;
-}
 
 /*-----Code CSS concernant la colonne de gauche-----*/
 
@@ -174,7 +170,7 @@ h1 {
 
 h5 {
 
-	font-size: 1em;
+	font-size: 1.1em;
 	color: rgb(255, 213, 0);
 	margin-top: 0;
 	text-align: left;
@@ -216,7 +212,7 @@ h5 {
 #sectionEtudes {
 
 	background-color: rgb(200, 200, 200);
-	margin-top: 7.7%;
+	margin-top: 7.5%;
 	margin-left: 25%;
 	margin-right: 5%;
 }
