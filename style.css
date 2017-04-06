@@ -226,12 +226,12 @@ h5 {
 	border-bottom: solid 2px  rgb(0, 100, 200);
 }
 
-.etudes h3{
+.etudes h3 {
 
 	margin-bottom: 1%;
 }
 
-.etudes a{
+.etudes a {
 
 	text-decoration: none;
 	color: rgb(0, 100, 200);
@@ -255,7 +255,7 @@ h5 {
 }
 
 
-/*!!!!!!!Troisième section (MES CONNAISSANCEFSD LINGUISTIQUES)!!!!!!!*/
+/*!!!!!!!Troisième section (MES CONNAISSANCES LINGUISTIQUES)!!!!!!!*/
 
 /*-----Positionnement de ma section-----*/
 
@@ -267,15 +267,27 @@ h5 {
 	margin-right: 5%;
 }
 
+.langues h3, .langues p {
+
+	display: inline-block;
+	margin-left: 1.5%;
+	margin-bottom: 3%;
+	font-size: 1.2em;
+}
+
+.langues img {
+
+	float: left;
+	margin-top: 0.4%;
+}
 
 
-
-
+/*----Code commun relatif aux sections-----*/
 
 .titreSections {
 
 	padding-top: 4%;
-	margin-bottom: 4%;	
+	margin-bottom: 5%;	
 	font-size: 2em;
 
 }
@@ -292,4 +304,9 @@ h5 {
 .contenuSections {
 
 	margin-left: 15%;
+}
+
+.section {
+
+	box-shadow: 5px 5px 20px black;
 }
