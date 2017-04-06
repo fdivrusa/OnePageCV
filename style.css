@@ -1,0 +1,294 @@
+
+body {
+
+	font-family: Arial, sans-serif; 
+	background-color: rgb(39, 39, 39);
+	margin: 0px;
+}
+
+* {
+
+	box-sizing: border-box;
+}
+
+/*-----Code CSS concernant la colonne de gauche-----*/
+
+header {
+
+	float: left;
+	width: 20%;
+	height: 150em;
+	color: white;
+	background: linear-gradient(to bottom, rgb(0, 88, 255), rgb(51, 204, 255));
+	margin-top: -20px;
+
+}
+
+/*-----Ajustement de la photo----*/
+
+#photo img {
+
+	width: 100%;
+	margin-bottom: 10%;
+}
+
+/*-----Je place l'icone de présentation au centre--------*/
+
+#iconePresentation img {
+
+	margin-left: 45%;
+	margin-top: 5%;
+}
+
+/*-----Mise en forme du texte de présentation------*/
+
+#presentation p{ 
+
+	text-align: justify;
+	margin:10%;
+	margin-bottom: 15%;
+	font-size: 1.1em;
+
+}
+
+/*-----Séparation du texte de présentation et des infos par une bordure------*/
+
+#presentation {
+
+	margin-bottom: 15%;
+	border-bottom: 1px solid rgb(0, 100, 200);
+}
+
+
+
+/*----Mise en forme et placement des logo(gsm, enveloppe, maison,...)----*/
+
+.logo img{
+
+	float: left;
+	width: 15%;
+	margin-left: 5%;
+}
+
+/*----Séparation des différentes infos par une bordure----*/
+
+.info {
+
+	margin-bottom: 15%;
+	border-bottom: 1px solid rgb(0, 100, 200);
+	
+}
+
+/*-----Mise en page de mes informations------*/
+
+.info p {
+
+	text-align: left;
+	margin-left: 30%;
+	padding-top: 4%;
+	font-size: 1.2em;
+	font-family: Helvetica;
+}
+
+/*----Ajustement de l'adresse pour être en face de l'icone-----*/
+
+.numero {
+
+	margin-bottom: 15%;
+}
+
+/*----je retire le padding pour bien centrer l'adresse------*/
+
+#texteAdresse p {
+
+	padding: 0;
+	margin-bottom: 15%;
+
+}
+
+/*---J'ajuste la marge gauche pour placer correctement mes adresses mails----*/
+
+#mail {
+
+	margin-left: 30%;
+	margin-right: 0%;
+}
+
+/*---Je retire les marges pour mes adresses mails-----*/
+
+h4 {
+
+	margin:0;	
+
+}
+
+/*----Mise en forme des notes sous les adresses mails-------*/
+
+#mail p {
+
+	text-align: left;
+	margin: 0;
+	margin-bottom: 15%;
+	font-size: 0.8em;
+
+}
+
+
+/*!!!!!!!Première section (NOM, PRÉNOM, FORMATION, CV + IMG DE FOND)!!!!!!!*/
+
+
+/*-----Affichage de l'image de fond, elle restera fixe----*/
+
+#image img{
+
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	z-index: -999;
+	opacity: 0.3;
+}
+
+/*------Placement du bloc contenant mon Nom Prénom + Etudes------*/
+
+#nomPrenom {
+
+	height: 100%;
+	padding-top: 5%;
+	padding-bottom: 2%;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+/*-----Mise en forme du nom et du prénom----*/
+
+h1 {
+
+	color: white;
+	font-size: 4em;
+	text-align: left;
+	margin:0;
+}
+
+/*----Mise en forme du nom de mes études-----*/
+
+h5 {
+
+	font-size: 1em;
+	color: rgb(255, 213, 0);
+	margin-top: 0;
+	text-align: left;
+}
+
+/*---Placement du bouton de téléchargement de CV----*/
+
+#cvBouton a{
+
+	font-weight: bold;
+	padding: 1%;
+	border-radius:20%;
+	color: black;
+	font-size: 1em;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 10%;
+	background:rgb(255, 213, 0);
+	transition: 1s;
+
+}
+
+/*----Petite animation lors du survol-----*/
+
+#cvBouton a:hover {
+
+	background:rgb(255, 150, 0);
+	padding: 2%;
+	transition: 1s;
+}
+
+
+/*!!!!!!!Seconde section (MON PARCOURS SCOLAIRE)!!!!!!!*/
+
+
+
+/*----Positinnement de la section-----*/
+
+#sectionEtudes {
+
+	background-color: rgb(200, 200, 200);
+	margin-top: 7.7%;
+	margin-left: 25%;
+	margin-right: 5%;
+}
+
+/*-----Mise en place du titre de section----*/
+
+#sectionEtudes h2 {
+
+	padding-top: 4%;
+	margin-bottom: 4%;
+	font-size: 2em;
+}
+
+/*-----Mise en place de l'icone de section----*/
+
+#sectionEtudes img {
+
+	width: 5%;
+	margin-top: 2em;
+	margin-left: 4em;
+	float: left
+}
+
+/*----Je place mon div un peu sur la droite---*/
+
+#contenuEtudes {
+
+	margin-left: 15%;
+}
+
+
+/*-----Chaque "Etudes" est séparé par une bordure---*/
+
+.etudes {
+
+	margin-top: 5%;
+	margin-left: 0%;
+	border-bottom: solid 2px  rgb(0, 100, 200);
+}
+
+.etudes h3{
+
+	margin-bottom: 1%;
+}
+
+.etudes a{
+
+	text-decoration: none;
+	color: rgb(0, 100, 200);
+}
+
+.etudes span {
+
+	font-size: 0.7em;
+	line-height: 5em;
+	color: rgb(0, 100, 200);
+}
+
+/*----Je ne met pas de bordure pour la dernière "Etude"----*/
+
+#cess {
+
+	border-bottom: 0;
+	padding-bottom: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
