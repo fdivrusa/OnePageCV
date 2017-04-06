@@ -217,33 +217,6 @@ h5 {
 	margin-right: 5%;
 }
 
-/*-----Mise en place du titre de section----*/
-
-#sectionEtudes h2 {
-
-	padding-top: 4%;
-	margin-bottom: 4%;
-	font-size: 2em;
-}
-
-/*-----Mise en place de l'icone de section----*/
-
-#sectionEtudes img {
-
-	width: 5%;
-	margin-top: 2em;
-	margin-left: 4em;
-	float: left
-}
-
-/*----Je place mon div un peu sur la droite---*/
-
-#contenuEtudes {
-
-	margin-left: 15%;
-}
-
-
 /*-----Chaque "Etudes" est séparé par une bordure---*/
 
 .etudes {
@@ -271,6 +244,8 @@ h5 {
 	color: rgb(0, 100, 200);
 }
 
+
+
 /*----Je ne met pas de bordure pour la dernière "Etude"----*/
 
 #cess {
@@ -280,11 +255,41 @@ h5 {
 }
 
 
+/*!!!!!!!Troisième section (MES CONNAISSANCEFSD LINGUISTIQUES)!!!!!!!*/
+
+/*-----Positionnement de ma section-----*/
+
+#sectionLangues {
+
+	background-color: rgb(200, 200, 200);
+	margin-top: 2%;
+	margin-left: 25%;
+	margin-right: 5%;
+}
 
 
 
 
 
 
+.titreSections {
 
+	padding-top: 4%;
+	margin-bottom: 4%;	
+	font-size: 2em;
 
+}
+
+.imageSections {
+
+	width: 5%;
+	width: 5%;
+	margin-top: 2em;
+	margin-left: 4em;
+	float: left;
+}
+
+.contenuSections {
+
+	margin-left: 15%;
+}
