@@ -80,7 +80,7 @@ header {
 .info p {
 
 	text-align: left;
-	margin-left: 30%;
+	margin-left: 25%;
 	padding-top: 4%;
 	font-size: 1.2em;
 	font-family: Helvetica;
@@ -102,12 +102,11 @@ header {
 
 }
 
-/*---J'ajuste la marge gauche pour placer correctement mes adresses mails----*/
+/*---J'ajuste la marge gauche pour placer correctement mon bloc d'adresses---*/
 
 #mail {
 
-	margin-left: 30%;
-	margin-right: 0%;
+	margin-left: 25%;
 }
 
 /*---Je retire les marges pour mes adresses mails-----*/
@@ -116,6 +115,14 @@ h4 {
 
 	margin:0;	
 
+}
+
+/*----Mise en forme du lien pour envoyer un mail----*/
+
+#mail a {
+
+	text-decoration: none;
+	color: white;
 }
 
 /*----Mise en forme des notes sous les adresses mails-------*/
@@ -206,7 +213,6 @@ h5 {
 /*!!!!!!!Seconde section (MON PARCOURS SCOLAIRE)!!!!!!!*/
 
 
-
 /*----Positinnement de la section-----*/
 
 #sectionEtudes {
@@ -225,6 +231,7 @@ h5 {
 	margin-left: 0%;
 	border-bottom: solid 2px  rgb(0, 100, 200);
 }
+
 
 .etudes h3 {
 
