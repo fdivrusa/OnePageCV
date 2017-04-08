@@ -33,7 +33,7 @@ header {
 #iconePresentation img {
 
 	margin-left: 45%;
-	margin-top: 5%;
+	width: 15%;
 }
 
 /*-----Mise en forme du texte de présentation------*/
@@ -260,7 +260,7 @@ h5 {
 
 /*-----Positionnement de ma section-----*/
 
-.langues h3, .langues p {
+#langues h3, #langues p {
 
 	display: inline-block;
 	margin-left: 1.5%;
@@ -268,7 +268,9 @@ h5 {
 	font-size: 1.2em;
 }
 
-.langues img {
+/*----Ajustement des drapeaux-----*/
+
+#langues img {
 
 	float: left;
 	margin-top: 0.4%;
@@ -305,5 +307,43 @@ h5 {
 	margin-top: 2%;
 	margin-left: 25%;
 	margin-right: 5%;
+	padding-bottom: 1%;
 	box-shadow: 5px 5px 20px black;
 }
+
+
+/*!!!!!!!Quatrième section (MES PROJETS)!!!!!!!*/
+
+/*-----Utilisation de FlexBox pour la présentation de mes projets-----*/
+
+#projets {
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-left: -15%;
+
+}
+
+
+/*-----Placements de mes projets dans le bloc-----*/
+
+.elements {
+
+	width: 28%;
+	text-align: center;
+	border: solid 2px black;
+	margin-bottom: 2%;
+	background-color: rgb(51, 204, 255) ;
+}
+
+
+/*----Ajustement de la taille de l'image----*/
+
+.elements img {
+
+	width: 25%;
+	margin-left: 10%;
+	
+}
+
