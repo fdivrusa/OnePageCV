@@ -140,6 +140,11 @@ h4 {
 /*!!!!!!!Première section (NOM, PRÉNOM, FORMATION, CV + IMG DE FOND)!!!!!!!*/
 
 
+#section1 {
+
+	margin-bottom: 7.5%;
+}
+
 /*-----Affichage de l'image de fond, elle restera fixe----*/
 
 #image img{
@@ -212,17 +217,6 @@ h5 {
 
 /*!!!!!!!Seconde section (MON PARCOURS SCOLAIRE)!!!!!!!*/
 
-
-/*----Positinnement de la section-----*/
-
-#sectionEtudes {
-
-	background-color: rgb(200, 200, 200);
-	margin-top: 7.5%;
-	margin-left: 25%;
-	margin-right: 5%;
-}
-
 /*-----Chaque "Etudes" est séparé par une bordure---*/
 
 .etudes {
@@ -266,14 +260,6 @@ h5 {
 
 /*-----Positionnement de ma section-----*/
 
-#sectionLangues {
-
-	background-color: rgb(200, 200, 200);
-	margin-top: 2%;
-	margin-left: 25%;
-	margin-right: 5%;
-}
-
 .langues h3, .langues p {
 
 	display: inline-block;
@@ -315,5 +301,9 @@ h5 {
 
 .section {
 
+	background-color: rgb(200, 200, 200);
+	margin-top: 2%;
+	margin-left: 25%;
+	margin-right: 5%;
 	box-shadow: 5px 5px 20px black;
 }
