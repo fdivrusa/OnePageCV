@@ -107,6 +107,7 @@ header {
 #mail {
 
 	margin-left: 25%;
+
 }
 
 /*---Je retire les marges pour mes adresses mails-----*/
@@ -134,6 +135,13 @@ h4 {
 	margin-bottom: 15%;
 	font-size: 0.8em;
 
+}
+
+/*----Ajout d'une bordure en dessous de mes adresses mails----*/
+
+#bordureMail {
+
+	border-bottom: 1px solid rgb(0, 100, 200);
 }
 
 
@@ -334,7 +342,8 @@ h5 {
 	text-align: center;
 	border: solid 2px black;
 	margin-bottom: 2%;
-	background-color: rgb(51, 204, 255) ;
+	background-color: rgb(51, 204, 255);
+	line-height: 1.4em;
 }
 
 
