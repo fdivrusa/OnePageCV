@@ -144,6 +144,40 @@ h4 {
 	border-bottom: 1px solid rgb(0, 100, 200);
 }
 
+#competences h3 {
+
+	line-height: 1.5em;
+	margin-left: 22%;
+	padding-top: 5%;
+	padding-right: 2%;
+
+}
+
+/*----Ajout de mes images pour mes compétences-----*/
+
+#iconesCompWeb img{
+
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 25%;
+	width: 50%;
+}
+
+#iconesCompProg img{
+
+  width: 30%;
+  margin-top: 5%;
+  margin-left: 13%;
+
+}
+
+#iconesCompBD img {
+
+	width: 50%;
+	margin-top: 5%;
+	margin-left: 25%;
+}
+
 
 /*!!!!!!!Première section (NOM, PRÉNOM, FORMATION, CV + IMG DE FOND)!!!!!!!*/
 
@@ -208,7 +242,7 @@ h5 {
 	text-align: center;
 	text-decoration: none;
 	margin-left: 10%;
-	background:rgb(255, 213, 0);
+	background:rgb(132, 243, 255);
 	transition: 1s;
 
 }
@@ -217,7 +251,7 @@ h5 {
 
 #cvBouton a:hover {
 
-	background:rgb(255, 150, 0);
+	background:rgb(0, 153, 255);
 	padding: 2%;
 	transition: 1s;
 }
