@@ -174,7 +174,7 @@ h4 {
 #iconesCompBD img {
 
 	width: 50%;
-	margin-top: 5%;
+	margin-top: 10%;
 	margin-left: 25%;
 }
 
@@ -298,7 +298,7 @@ h5 {
 }
 
 
-/*!!!!!!!Troisième section (MES CONNAISSANCES LINGUISTIQUES)!!!!!!!*/
+/*!!!!!!!Quatrième section (MES CONNAISSANCES LINGUISTIQUES)!!!!!!!*/
 
 /*-----Positionnement de ma section-----*/
 
@@ -332,7 +332,6 @@ h5 {
 .imageSections {
 
 	width: 5%;
-	width: 5%;
 	margin-top: 2em;
 	margin-left: 4em;
 	float: left;
@@ -354,7 +353,7 @@ h5 {
 }
 
 
-/*!!!!!!!Quatrième section (MES PROJETS)!!!!!!!*/
+/*!!!!!!!Cinquième section (MES PROJETS)!!!!!!!*/
 
 /*-----Utilisation de FlexBox pour la présentation de mes projets-----*/
 
