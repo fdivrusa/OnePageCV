@@ -261,7 +261,7 @@ h5 {
 
 /*-----Chaque "Etudes" est séparé par une bordure---*/
 
-.etudes {
+.etudesExp {
 
 	margin-top: 5%;
 	margin-left: 0%;
@@ -269,18 +269,18 @@ h5 {
 }
 
 
-.etudes h3 {
+.etudesExp h3 {
 
 	margin-bottom: 1%;
 }
 
-.etudes a {
+.etudesExp a {
 
 	text-decoration: none;
 	color: rgb(0, 100, 200);
 }
 
-.etudes span {
+.etudesExp span {
 
 	font-size: 0.7em;
 	line-height: 5em;
@@ -297,6 +297,22 @@ h5 {
 	padding-bottom: 0.5em;
 }
 
+
+/*!!!!!!!!troisième section(Mes expériences pro)!!!!!!!!!*/
+
+/*------Même style que mes études (Voir plus haut, même classe)-----*/
+
+.imagesPro {
+
+	width: 10%;
+	float: left;
+	margin-left: -13%;
+}
+
+#cora {
+
+	border: 0;
+}
 
 /*!!!!!!!Quatrième section (MES CONNAISSANCES LINGUISTIQUES)!!!!!!!*/
 
