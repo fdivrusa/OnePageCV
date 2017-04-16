@@ -26,6 +26,14 @@ header {
 
 	width: 100%;
 	margin-bottom: 10%;
+	opacity: 1;
+	transition: 1s;
+}
+
+#photo img:hover {
+
+	opacity: 0.5;
+	transition: 1s;
 }
 
 /*-----Je place l'icone de présentation au centre--------*/
@@ -305,8 +313,8 @@ h5 {
 .imagesPro {
 
 	width: 10%;
-	float: left;
-	margin-left: -13%;
+	float: right;
+	margin-right: 55%;
 }
 
 #cora {
