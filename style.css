@@ -16,13 +16,51 @@ header {
 	height: 150em;
 	color: white;
 	background: linear-gradient(to bottom, rgb(0, 88, 255), rgb(51, 204, 255));
-	margin-top: -20px;
+
+}
+
+
+/*---Code concernant le slider----*/
+
+#sliderReseaux {
+
+	position: absolute;
+	margin-top: 22%;
+	width: 20%;
+
+
+}
+
+#sliderReseaux ul {
+
+	list-style-type: none;
+
+}
+
+#sliderReseaux ul li {
+
+	display: inline;
+	align-content: center;
+	padding: 3%;
+
+}
+
+#sliderReseaux img {
+
+	width: 15%;
+}
+
+#sliderReseaux a {
+
+	text-decoration: none;
+	border: 0;
 
 }
 
 /*-----Ajustement de la photo----*/
 
-#photo img {
+
+#florian {
 
 	width: 100%;
 	margin-bottom: 10%;
@@ -30,7 +68,7 @@ header {
 	transition: 1s;
 }
 
-#photo img:hover {
+#florian:hover {
 
 	opacity: 0.5;
 	transition: 1s;
@@ -42,6 +80,7 @@ header {
 
 	margin-left: 45%;
 	width: 15%;
+	margin-bottom: 10%;
 }
 
 /*-----Mise en forme du texte de présentation------*/
@@ -50,6 +89,7 @@ header {
 
 	text-align: justify;
 	margin:10%;
+	margin-top: 0;
 	margin-bottom: 15%;
 	font-size: 1.1em;
 
@@ -192,7 +232,7 @@ h4 {
 
 #section1 {
 
-	margin-bottom: 7.5%;
+	margin-bottom: 8.5%;
 }
 
 /*-----Affichage de l'image de fond, elle restera fixe----*/
