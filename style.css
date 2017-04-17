@@ -24,17 +24,16 @@ header {
 
 #sliderReseaux {
 
+	z-index: 999;
 	position: absolute;
-	margin-top: 22%;
 	width: 20%;
-
-
+	margin-top: -1%;
 }
 
 #sliderReseaux ul {
 
 	list-style-type: none;
-
+	display: none;
 }
 
 #sliderReseaux ul li {
@@ -42,12 +41,12 @@ header {
 	display: inline;
 	align-content: center;
 	padding: 3%;
-
 }
 
 #sliderReseaux img {
 
 	width: 15%;
+	margin-left: 0%;
 }
 
 #sliderReseaux a {
@@ -63,15 +62,6 @@ header {
 #florian {
 
 	width: 100%;
-	margin-bottom: 10%;
-	opacity: 1;
-	transition: 1s;
-}
-
-#florian:hover {
-
-	opacity: 0.5;
-	transition: 1s;
 }
 
 /*-----Je place l'icone de présentation au centre--------*/
@@ -81,6 +71,7 @@ header {
 	margin-left: 45%;
 	width: 15%;
 	margin-bottom: 10%;
+	margin-top: 10%;
 }
 
 /*-----Mise en forme du texte de présentation------*/
@@ -256,6 +247,7 @@ h4 {
 	padding-bottom: 2%;
 	margin-left: 30%;
 	margin-right: 30%;
+	opacity: 0;
 }
 
 /*-----Mise en forme du nom et du prénom----*/
@@ -441,6 +433,13 @@ h5 {
 	margin-bottom: 2%;
 	background-color: rgb(51, 204, 255);
 	line-height: 1.4em;
+	transition: 1s;
+}
+
+.elements:hover {
+
+	background-color: rgb(0, 100, 200);
+	padding: 0% 5% 10% 5%;
 }
 
 
@@ -452,4 +451,5 @@ h5 {
 	margin-left: 10%;
 	
 }
+
 
