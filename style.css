@@ -16,7 +16,6 @@ header {
 	height: 150em;
 	color: white;
 	background: linear-gradient(to bottom, rgb(0, 88, 255), rgb(51, 204, 255));
-
 }
 
 
@@ -24,7 +23,6 @@ header {
 
 #sliderReseaux {
 
-	z-index: 999;
 	position: absolute;
 	width: 20%;
 	margin-top: -1%;

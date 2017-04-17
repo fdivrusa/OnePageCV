@@ -2,19 +2,25 @@
 
 $('#photoFlorian').mouseenter(function() {
 	
-	$('#sliderReseaux ul').fadeIn('slow');
+	$('#sliderReseaux ul').fadeIn('xslow');
+	$('#florian').animate({
+		opacity: 0.5
+	}, 500)
 	$('#sliderReseaux').animate({
 		marginTop: '-4%'
-	}, 	400);
+	}, 	500);
 
 });
 
 $('#photoFlorian').mouseleave(function() {
 	
 	$('#sliderReseaux ul').fadeOut('fast');
+		$('#florian').animate({
+		opacity: 1
+	}, 300)
 	$('#sliderReseaux').animate({
-		marginTop: '0%',
-	}, 500);
+		marginTop: '-2%',
+	}, 300);
 });
 
 
@@ -24,7 +30,7 @@ $(document).ready(function() {
 	
 	$('#nomPrenom ').animate({
 		opacity: 1 
-	}, 2000);
+	}, 3000);
 
 
 });
