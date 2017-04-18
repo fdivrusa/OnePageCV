@@ -67,7 +67,7 @@ header {
 #iconePresentation img {
 
 	margin-left: 45%;
-	width: 15%;
+	width: 10%;
 	margin-bottom: 10%;
 	margin-top: 10%;
 }
@@ -315,8 +315,37 @@ h5 {
 .etudesExp a {
 
 	text-decoration: none;
+	position: relative;
 	color: rgb(0, 100, 200);
+	transition: 0.5s;
 }
+
+/*----Transition au survol (Pour le soulignement progressif : http://www.cssportal.com/blog/css-animated-underline-links/)-----*/
+
+.etudesExp a:hover {
+
+	font-size: 1.4em;
+	transition: 0.5s;
+}
+
+.etudesExp  a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  background: rgb(0, 100, 200);;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: 0.25s;
+}
+
+.etudesExp  a:hover:before{
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+/*-----Date de mes études ou expériences pro----*/
 
 .etudesExp span {
 
@@ -385,7 +414,7 @@ h5 {
 
 .imageSections {
 
-	width: 5%;
+	width: 6%;
 	margin-top: 2em;
 	margin-left: 4em;
 	float: left;
@@ -440,14 +469,5 @@ h5 {
 	padding: 0% 5% 10% 5%;
 }
 
-
-/*----Ajustement de la taille de l'image----*/
-
-.elements img {
-
-	width: 25%;
-	margin-left: 10%;
-	
-}
-
+/*!!!!!!MEDIA QUERIES!!!!!!!!!!*/
 

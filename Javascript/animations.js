@@ -5,10 +5,10 @@ $('#photoFlorian').mouseenter(function() {
 	$('#sliderReseaux ul').fadeIn('xslow');
 	$('#florian').animate({
 		opacity: 0.5
-	}, 500)
+	}, 300)
 	$('#sliderReseaux').animate({
 		marginTop: '-4%'
-	}, 	500);
+	}, 	300);
 
 });
 
@@ -17,9 +17,9 @@ $('#photoFlorian').mouseleave(function() {
 	$('#sliderReseaux ul').fadeOut('fast');
 		$('#florian').animate({
 		opacity: 1
-	}, 300)
+	}, 150)
 	$('#sliderReseaux').animate({
-		marginTop: '-2%',
+		marginTop: '-1%',
 	}, 300);
 });
 
