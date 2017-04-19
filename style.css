@@ -4,6 +4,7 @@ body {
 	font-family: Arial, sans-serif; 
 	background-color: rgb(39, 39, 39);
 	margin: 0;
+	background: url("Images/Accueil.JPG") no-repeat fixed center;
 }
 
 
@@ -16,6 +17,8 @@ header {
 	height: 150em;
 	color: white;
 	background: linear-gradient(to bottom, rgb(0, 88, 255), rgb(51, 204, 255));
+	box-shadow: 5px 5px 20px black;
+
 }
 
 
@@ -216,7 +219,7 @@ h4 {
 }
 
 
-/*!!!!!!!Première section (NOM, PRÉNOM, FORMATION, CV + IMG DE FOND)!!!!!!!*/
+/*!!!!!!!Première section (NOM, PRÉNOM, FORMATION, CV)!!!!!!!*/
 
 
 #section1 {
@@ -228,12 +231,7 @@ h4 {
 
 #image img{
 
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	background-repeat: no-repeat;
-	z-index: -999;
-	opacity: 0.3;
+	
 }
 
 /*------Placement du bloc contenant mon Nom Prénom + Etudes------*/
@@ -401,41 +399,6 @@ h5 {
 	margin-top: 0.4%;
 }
 
-
-/*----Code commun relatif aux sections-----*/
-
-.titreSections {
-
-	padding-top: 4%;
-	margin-bottom: 5%;	
-	font-size: 2em;
-
-}
-
-.imageSections {
-
-	width: 6%;
-	margin-top: 2em;
-	margin-left: 4em;
-	float: left;
-}
-
-.contenuSections {
-
-	margin-left: 15%;
-}
-
-.section {
-
-	background-color: rgb(200, 200, 200);
-	margin-top: 2%;
-	margin-left: 25%;
-	margin-right: 5%;
-	padding-bottom: 1%;
-	box-shadow: 5px 5px 20px black;
-}
-
-
 /*!!!!!!!Cinquième section (MES PROJETS)!!!!!!!*/
 
 /*-----Utilisation de FlexBox pour la présentation de mes projets-----*/
@@ -468,6 +431,40 @@ h5 {
 	background-color: rgb(0, 100, 200);
 	padding: 0% 5% 10% 5%;
 }
+
+/*!!!!!!!!!!Code commun relatif aux sections!!!!!!!!!!!*/
+
+.titreSections {
+
+	padding-top: 4%;
+	margin-bottom: 5%;	
+	font-size: 2em;
+
+}
+
+.imageSections {
+
+	width: 6%;
+	margin-top: 2em;
+	margin-left: 4em;
+	float: left;
+}
+
+.contenuSections {
+
+	margin-left: 15%;
+}
+
+.section {
+
+	background-color: rgb(200, 200, 200);
+	margin-top: 2%;
+	margin-left: 25%;
+	margin-right: 5%;
+	padding-bottom: 1%;
+	box-shadow: 5px 5px 20px black;
+}
+
 
 /*!!!!!!MEDIA QUERIES!!!!!!!!!!*/
 
