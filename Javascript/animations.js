@@ -1,7 +1,11 @@
 /*----Au survol de ma photo, l'utilisateur découvrira mes réseaux sociaux----*/
 
-$('#photoFlorian').mouseenter(function() {
+$('#florian').mouseenter(function() {
 	
+
+	$('#florian img').animate({
+		opacity:0.5
+	}, 300);
 	$('#sliderReseaux ul').fadeIn('xslow');
 	$('#sliderReseaux').animate({
 		marginTop: '-4%'
@@ -9,8 +13,11 @@ $('#photoFlorian').mouseenter(function() {
 
 });
 
-$('#photoFlorian').mouseleave(function() {
+$('#florian').mouseleave(function() {
 	
+	$('#florian img').animate({
+		opacity:1
+	}, 300);
 	$('#sliderReseaux ul').fadeOut('fast');
 	$('#sliderReseaux').animate({
 		marginTop: '-1%',

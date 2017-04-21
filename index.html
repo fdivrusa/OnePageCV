@@ -13,30 +13,61 @@
 	<title>Di Vrusa Florian</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!--[if lte IE 8]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <script>
-    document.createElement('header');
-    document.createElement('nav');
-    document.createElement('section');
-    document.createElement('article');
-    document.createElement('footer');
-    </script>
-    <[endif]-->
+       	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script>
+        document.createElemente('header');
+        document.createElement('footer');
+        </script>
+    <![endif]-->
 </head>
 
 <body>
+
+
+		<!--Le "hoverHeader va me permettre d'afficher ces éléments au dessus du header sur mobile et tablettes"-->
+		<div id="florianHoverHeader">
+			<img src="Images/DiVrusa.JPG" alt="Di Vrusa Florian" title="Di Vrusa Florian">
+		</div>
+
+		<div id="sliderReseauxHoverHeader">
+			<ul>
+				<li class="iconesReseaux" id="facebook">
+					<a href="https://www.facebook.com/florian.divrusa" title="Facebook" target="_blank">
+						<img src="Images/IconesReseauxSociaux/facebook.png" alt="Facebook">
+					</a>
+				</li>
+
+				<li class="iconesReseaux" id="twitter">
+					<a href="https://twitter.com/floriandv1996" title="Twitter" target="_blank">
+						<img src="Images/IconesReseauxSociaux/twitter.png" alt="Twitter">
+					</a>
+				</li>
+
+				<li class="iconesReseaux" id="github">
+					<a href="https://github.com/floDV1996" title="Github" target="_blank">
+						<img src="Images/IconesReseauxSociaux/github.png" alt="">
+					</a>
+				</li>
+
+				<li>
+					<a href="https://www.linkedin.com/in/florian-di-vrusa-2a7065115/" title="Linkedin" target="_blank">
+						<img src="Images/IconesReseauxSociaux/linkedin.png" alt="Linkedin">
+					</a>
+				</li>
+			</ul>
+		</div>
 
 		<!--le header contient la photo, le nom, le prénom
 		le texte de présentation ainsi que toutes les infos pratiques
 		(addresse, numéro, mail,...)-->
 		<header>
 	
-				<div id="presentation">
 
-					<div id="photoFlorian">
-					
-						<img id="florian" src="Images/DiVrusa.JPG" alt="Di Vrusa Florian" title="Di Vrusa Florian">
-
+					<div id="florian">
+						<img src="Images/DiVrusa.JPG" alt="Di Vrusa Florian" title="Di Vrusa Florian">
+					</div>
+				
 						<!--Slider qui apparaitra au survol de ma photo-->
 						<div id="sliderReseaux" >
 
@@ -74,14 +105,12 @@
 						<img src="Images/IconesHeader/presentation.png" alt="présentation">
 					</div>
 
-					<div id="textePresentation">
+					<div class="info" id="textePresentation">
 						<p>Passionné de technologie depuis tout petit, j'ai toujours voulu m'orienter dans ce milieu.
 						Ayant toujours voulu laisser ma marque dans le monde de la technologie, je me suis orienté dans des études de développement en informatique afin de pouvoir apporter ma touche personnelle dans le monde qui m'entoure.</p>
 
 						<p>Toujours à la recherche de nouveaux défis, je suis également capable de travailler sous la pression, je n'hésite pas à me renseigner sur les nouvelles technologies du moment et j'adore le travail d'équipe. Le travail ne me fait pas peur.</p>
 					</div>
-					
-				</div>
 	
 				<div class="info">
 
@@ -151,6 +180,11 @@
 
 					<div id="iconesCompBD">
 						<img src="Images/IconesCompetences/mySql.png" alt="MySQL" title="MySQL">
+					</div>
+
+					<div id = iconesCompMobileUnity>
+						<img src="Images/IconesCompetences/unity.png" alt="Unity" title="Unity">
+						<img src="Images/IconesCompetences/android.png" alt="Android" title="android">
 					</div>
 
 				</div>
@@ -308,10 +342,6 @@
 			</div>
 			
 		</section>
-
-		<footer>
-			
-		</footer>
 
 	</div>
 
