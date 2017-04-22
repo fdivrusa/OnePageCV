@@ -2,7 +2,7 @@
 body {
 
 	font-family: Arial, sans-serif; 
-	background-color: rgb(39, 39, 39);
+	background-color: rgb(102, 153, 153);
 	margin: 0;
 	background: url("Images/Accueil.JPG") repeat fixed center;
 }
@@ -17,7 +17,7 @@ header {
 	height: 160em;
 	color: white;
 	background-color: rgb(0, 130, 200);
-	background: linear-gradient(to bottom, rgb(0, 42, 255), rgb(51, 156, 255));
+	background: linear-gradient(to bottom, rgb(48, 64, 123), rgb(51, 156, 255));
 	box-shadow: 5px 5px 20px black;
 
 }
@@ -72,7 +72,6 @@ header {
 
 #florian {
 
-	background-color: grey;
 	width: 100%;
 }
 
@@ -117,7 +116,7 @@ header {
 .info {
 
 	margin-bottom: 15%;
-	border-bottom: 1px solid rgb(0, 46, 200);
+	border-bottom: 1px solid rgb(48, 64, 123);
 	
 }
 
@@ -234,28 +233,24 @@ h4 {
 
 /*!!!!!!!Première section (NOM, PRÉNOM, FORMATION, CV)!!!!!!!*/
 
+#section1HoverHeader {
+
+	display: none;
+}
 
 #section1 {
 
-	margin-bottom: 8.5%;
-}
-
-/*-----Affichage de l'image de fond, elle restera fixe----*/
-
-#image img{
-
-	
+	width: 80%;
+	margin-bottom: 11%;
 }
 
 /*------Placement du bloc contenant mon Nom Prénom + Etudes------*/
 
 #nomPrenom {
 
-	height: 100%;
-	padding-top: 5%;
-	padding-bottom: 2%;
-	margin-left: 30%;
-	margin-right: 30%;
+	display: inline-block;
+	margin-left: 6.5%;
+	margin-top: 5%;
 	opacity: 0;
 }
 
@@ -273,25 +268,42 @@ h1 {
 
 h5 {
 
-	font-size: 1.1em;
+	margin: 0;
+	font-size: 1.2em;
+	line-height: 2em;
 	color: rgb(255, 213, 0);
-	margin-top: 0;
 	text-align: left;
 }
+
+#cvBoutonHoverHeader {
+
+	display: none;
+}
+
+#cvBouton { 
+
+	display: inline-block;
+	position: absolute;
+	margin-top: -15%;
+	margin-left: 40%;
+	width: 20%;
+	transition: 1s;
+
+ }
 
 /*---Placement du bouton de téléchargement de CV----*/
 
 #cvBouton a{
 
 	font-weight: bold;
-	padding: 1%;
+	padding: 5%;
 	border-radius:20%;
 	color: black;
 	font-size: 1em;
 	text-align: center;
 	text-decoration: none;
-	margin-left: 10%;
-	background:rgb(132, 243, 255);
+	margin-bottom: 20%;
+	background: rgb(255, 213, 0); 
 	transition: 1s;
 
 }
@@ -300,11 +312,10 @@ h5 {
 
 #cvBouton a:hover {
 
-	background:rgb(0, 88, 200);
-	padding: 2%;
+	background:rgb(132, 243, 255);
+	padding: 10%;
 	transition: 1s;
 }
-
 
 /*!!!!!!!Seconde section (MON PARCOURS SCOLAIRE)!!!!!!!*/
 
@@ -539,6 +550,12 @@ h5 {
 
 	}
 
+	#cvBouton {
+
+		margin-left: 50%;
+		transition: 1s;
+	}
+
 }
 
 @media screen and (max-width: 1220px) {
@@ -548,6 +565,7 @@ h5 {
 		float: none;
 		margin-top: 10%;
 		width: 100%;
+		height: auto;
 	}
 
 	#florian {
@@ -561,18 +579,232 @@ h5 {
 
 		display: block;
 		width: 20%;
-		margin: auto;
-		margin-top: 10%;
+		margin: 0 auto;
+		margin-top: 5%;
 	}
 
 	#florianHoverHeader img {
 
 		width: 100%;
 		border-radius: 50%;
+		margin-bottom: 10%;
 	}
+
+	/*----Liens vers mes réseaux sociaux---*/
 
 	#sliderReseauxHoverHeader {
 
 	display: block;
 	}
+
+	#sliderReseauxHoverHeader ul {
+
+	text-align: center;
+	list-style-type: none;
+	padding: 0;
+
+	}
+
+	#sliderReseauxHoverHeader ul li {
+
+	display: inline;
+	padding: 3%;
+	}
+
+	#sliderReseauxHoverHeader img {
+
+	width: 5%;
+	margin-left: 0%;
+	}
+
+	#sliderReseauxHoverHeader a {
+
+	text-decoration: none;
+	border: 0;
+	}
+
+	/*-----Section 1 avec Nom, Prénom...----*/
+
+	#section1 {
+
+		display: none;
+	}
+
+	#section1HoverHeader {
+
+		display: block;
+		margin-bottom: 11%;
+	}
+
+	#nomPrenomHoverHeader *{
+
+		text-align: center;
+	}
+
+	/*----Positionnement de mon bouton------*/
+
+	#cvBouton { 
+
+		display: none;
+	 }
+
+	#cvBoutonHoverHeader { 
+
+		display: block;
+		text-align: center;
+	}
+
+	#cvBoutonHoverHeader a{
+
+	font-weight: bold;
+	padding: 2%;
+	border-radius:20%;
+	color: black;
+	font-size: 1em;
+	text-align: center;
+	text-decoration: none;
+	background: rgb(255, 213, 0); 
+
+	}
+
+	/*----Section de présentation-----*/
+
+	#iconePresentation img {
+
+		display: block;
+		width: 5%;
+		margin: 0 auto;
+		margin-bottom: 4%;
+		padding-top: 5%;
+	}
+
+	#textePresentation p {
+
+		margin: 0 5% 5% 5%;
+		font-size: 1.2em;
+	}
+
+	/*----Sections----*/
+
+	.info {
+
+		margin-bottom: 3%;
+	}
+
+	.info p {
+
+		padding: 0;
+	}
+
+	/*----Numéro de téléphone-----*/
+
+	.numero {
+
+		margin-bottom: 5%;
+	}
+
+	/*---ajustement des images d'informations-----*/
+
+	.logo img {
+
+		width: 5%;
+		margin-bottom: 2%;
+	}
+
+	/*----Ajustement des adresses----*/
+
+	#texteAdresse p {
+
+		margin-bottom: 5%;
+		text-align: center;
+	}
+
+	#mail p {
+
+		margin-bottom: 5%;
+		text-align: center;
+	}
+
+	#bordureMail {
+
+		margin-bottom: 3%;
+	}
+
+	/*-----Competences------*/
+
+	#competences h3 {
+
+		padding: 0;
+		margin-bottom: 5%;
+		font-size: 2em;
+	}
+
+	#iconesCompWeb {
+
+		width: 30%;
+		margin: 0 auto;
+	}
+
+	#iconesCompProg {
+
+		width: 30%;
+		margin: 0 auto;
+	}
+
+	#iconesCompBD {
+
+		width: 30%;
+		margin: 0 auto;	
+	}
+
+	#iconesCompMobileUnity {
+
+		width: 30%;
+		margin: 0 auto;
+
+	}
+
+	/*----Section-----*/
+
+	.section {
+
+		width: 100%;
+		margin: 0;
+		margin-top: 5%;
+	}
+
+	.imageSections {
+
+		display: block;
+		float: none;
+		margin: 0 auto;
+		padding-top: 2%;
+
+	}
+
+	.contenuSections {
+
+		margin: 0;
+	}
+
+	.titreSections {
+
+		padding: 0;
+		text-align: center;
+	}
+
+	.etudesExp {
+
+		text-align: center;
+	}
+
+	.imagesPro {
+
+		display: none;
+	}
+
+
+
+
+
 }

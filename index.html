@@ -25,26 +25,26 @@
 <body>
 
 
-		<!--Le "hoverHeader va me permettre d'afficher ces éléments au dessus du header sur mobile et tablettes"-->
+		<!--Le "hoverHeader va me permettre d'afficher ces éléments au dessus du header sur mobile et tablettes, il sera non visible pour les grands"-->
 		<div id="florianHoverHeader">
 			<img src="Images/DiVrusa.JPG" alt="Di Vrusa Florian" title="Di Vrusa Florian">
 		</div>
 
 		<div id="sliderReseauxHoverHeader">
 			<ul>
-				<li class="iconesReseaux" id="facebook">
+				<li class="iconesReseaux">
 					<a href="https://www.facebook.com/florian.divrusa" title="Facebook" target="_blank">
 						<img src="Images/IconesReseauxSociaux/facebook.png" alt="Facebook">
 					</a>
 				</li>
 
-				<li class="iconesReseaux" id="twitter">
+				<li class="iconesReseaux">
 					<a href="https://twitter.com/floriandv1996" title="Twitter" target="_blank">
 						<img src="Images/IconesReseauxSociaux/twitter.png" alt="Twitter">
 					</a>
 				</li>
 
-				<li class="iconesReseaux" id="github">
+				<li class="iconesReseaux">
 					<a href="https://github.com/floDV1996" title="Github" target="_blank">
 						<img src="Images/IconesReseauxSociaux/github.png" alt="">
 					</a>
@@ -58,12 +58,30 @@
 			</ul>
 		</div>
 
+		<section id="section1HoverHeader">
+
+			<div id="nomPrenomHoverHeader">
+				<h1>Di Vrusa Florian</h1>
+				<h5>Étudiant en informatique et télécommunications</h5>
+				<h5>Développeur / Programmeur</h5>
+			</div>
+
+		</section>
+
+
+		<div id="cvBoutonHoverHeader">
+			<a href="" target="_blank" >Télécharger mon CV</a>
+		</div>
+
+			
 		<!--le header contient la photo, le nom, le prénom
 		le texte de présentation ainsi que toutes les infos pratiques
 		(addresse, numéro, mail,...)-->
 		<header>
-	
 
+
+				<div id="photo">
+	
 					<div id="florian">
 						<img src="Images/DiVrusa.JPG" alt="Di Vrusa Florian" title="Di Vrusa Florian">
 					</div>
@@ -99,7 +117,7 @@
 
 						</div>
 
-					</div>
+					</div>	
 					
 					<div id="iconePresentation">
 						<img src="Images/IconesHeader/presentation.png" alt="présentation">
@@ -191,20 +209,21 @@
 				
 		</header>
 
-		<!--La première section affichera le nom, le prénom et donnera à l'utlisateur la possibilité de télécharger mon cv au format PDF via MEGA-->
+		<!--La première section affichera le nom, le prénom et mes études-->
 		<section id="section1">
 
 			<div id="nomPrenom">
 				<h1>Di Vrusa Florian</h1>
 				<h5>Étudiant en informatique et télécommunications</h5>
+				<h5>Développeur / Programmeur</h5>
 			</div>
 
+		</section>
+
+		<!--Je donnerais la possibilité à l'utilisateur de télécharger mon CV et je note ce que je recherche-->
 			<div id="cvBouton">
 				<a href="" target="_blank" >Télécharger mon CV</a>
 			</div>
-			
-		</section>
-
 
 		<!--La seconde section affichera des informations sur mes études actuelles et passées ainsi que le moyen de se renseigner sur les établissements-->
 
@@ -342,8 +361,6 @@
 			</div>
 			
 		</section>
-
-	</div>
 
 <!--Scripts Javascript-->
 <script type="text/javascript" src="Javascript/jquery-3.2.0.min.js"></script>
