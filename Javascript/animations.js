@@ -7,10 +7,6 @@ $('#photo').mouseenter(function() {
 		opacity:0.5
 	}, 300);
 	$('#sliderReseaux ul').fadeIn('xslow');
-	$('#sliderReseaux').animate({
-		marginTop: '-4%'
-	}, 	300);
-
 });
 
 $('#photo').mouseleave(function() {
