@@ -11,7 +11,7 @@ body {
 	font-family: Arial, sans-serif; 
 	background-color: rgb(102, 153, 153);
 	margin: 0;
-	background: url("Images/Accueil.JPG") repeat fixed center;
+	background: url("Images/Accueil.JPG") no-repeat fixed center;
 }
 
 
@@ -454,11 +454,10 @@ h5 {
 
 /*-----Placements de mes projets dans le bloc-----*/
 
-.elements {
+.elementsProjet {
 
 	display: table;
 	width: 28%;
-	text-align: center;
 	border: solid 2px black;
 	margin: 0 0 2vw 0; /*Avec le VW, Firefox prend bien en compte les margin verticales, si je laisse tout en %, il y a certains bug*/
 	background-color: rgb(51, 156, 255);
@@ -466,11 +465,55 @@ h5 {
 	transition: 0.5s;
 }
 
-.elements:hover {
+.elementsProjet h2, p {
+
+	text-align: center;
+
+}
+
+.elementsProjet:hover {
 
 	background-color: rgb(0, 100, 200);
-	padding: 0% 5% 15% 5%;
+	padding: 0% 5% 5% 5%;
 	transition: 0.5s;
+}
+
+/*-----Ajout d'une description de mes projets------*/
+
+.descriptionProjet {
+
+	
+
+}
+
+.descriptionProjet img {
+
+	width: 40%;
+	float: left;
+}
+
+.descriptionProjet p {
+
+	text-align: left;
+	margin-left: 50%;
+	margin-right: 5%;
+}
+
+.liensProjets img {
+
+	width: 10%;
+	margin-right: 5%;
+	margin-bottom: 1%; 
+	margin-left: 5%;
+	float: left;
+
+}
+
+.lienProjets a {
+
+	float: left;
+	text-align: none;
+	margin-left: 0;
 }
 
 /*!!!!!!!!!!Code commun relatif aux sections!!!!!!!!!!!*/

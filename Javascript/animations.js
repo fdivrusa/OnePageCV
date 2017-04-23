@@ -25,11 +25,7 @@ $(document).ready(function() {
 	$('#nomPrenom ').animate({
 		opacity: 1 
 	}, 3000);
-
-
 });
-
-
 
 
 
