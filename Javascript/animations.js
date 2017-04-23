@@ -24,8 +24,28 @@ $(document).ready(function() {
 	
 	$('#nomPrenom ').animate({
 		opacity: 1 
-	}, 3000);
+	}, 1500);
 });
+
+
+/*----Apparition et disparition des infos de mes projets au survol----*/
+
+function apparition (id) {
+
+	setTimeout(function apparitionProjet () {
+	
+		$("#"+id).fadeIn('slow');
+
+	}, 900);
+
+}
+
+function disparition(id) {
+		
+	$("#"+id).fadeOut('10');
+	
+}
+
 
 
 
