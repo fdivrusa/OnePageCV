@@ -1,19 +1,13 @@
 
-html {
-
-	display: flex;
-	width: 100%;
-	height: 100%;
-}
-
 body {
 
 	font-family: Arial, sans-serif; 
-	background-color: rgb(102, 153, 153);
+	background: url("Images/accueil.png");
+	background-repeat: repeat;
+	background-position: center;
+	background-attachment: fixed;
 	margin: 0;
-	background: url("Images/Accueil.JPG") no-repeat fixed center;
 }
-
 
 /*-----Code CSS concernant la colonne de gauche-----*/
 
@@ -28,7 +22,6 @@ header {
 	box-shadow: 5px 5px 20px black;
 
 }
-
 
 /*---Code concernant le slider----*/
 
@@ -560,9 +553,9 @@ h5 {
 /*!!!!!!MEDIA QUERIES!!!!!!!!!!*/
 
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1366px) {
 
-/*-----Placement de mes icones au dessus des informations et "centrages des infos"(Sinon les adresses mails dépassent du header en dessous de 1400px)------*/
+/*-----Placement de mes icones au dessus des informations et "centrages des infos"(Sinon les adresses mails dépassent du header en dessous de 1366px)------*/
 
 	.logo img {
 
@@ -623,7 +616,7 @@ h5 {
 
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1000px) {
 
 
 	body {
@@ -927,9 +920,8 @@ h5 {
 	}
 }
 
-@media screen and (max-width: 700px) {
 
-
+@media screen and (max-width: 650px) {
 
 	#florianHoverHeader {
 
@@ -940,6 +932,7 @@ h5 {
 
 	#nomPrenomHoverHeader h1 {
 
+		font-size: 2.5em;
 		margin-bottom: 5%;
 	}
 
@@ -966,51 +959,52 @@ h5 {
 	#textePresentation p {
 
 		line-height: 1.5em;
+		font-size: 1em;
 		margin-bottom: 10%;
 	}
 
 	.logo img {
 
-		width: 15%;
+		width: 10%;
 		margin-top: 5%;
 		margin-bottom: 5%;
 	}
 
 	#iconesCompWeb {
 
-		width: 100%;
+		width: 50%;
 	}
 
 	#iconesCompProg {
 
-		width: 100%;
+		width: 70%;
 	}
 
 	#iconesCompBD {
 
-		width: 100%;
+		width: 50%;
 	}
 
 	#iconesCompMobileUnity {
 
-		width: 100%;
+		width: 50%;
 		padding-bottom: 10%;
 	}
 
 	.imageSections {
 
-		width: 20%;
+		width: 10%;
 	}
 
 	.titreSections {
 
 		margin-top: 5%;
-		font-size: 2.2em;
+		font-size: 1.5em;
 	}
 
 	.etudesExp h3{
 
-		font-size: 1.2em;
+		font-size: 1em;
 		margin-top: 10%;
 		margin-bottom: 5%;
 	}
@@ -1022,8 +1016,19 @@ h5 {
 
 	#imageCoraResponsive {
 
-		width: 30%;
+		width: 20%;
 		margin-top: 5%;
+	}
+
+	#langues img {
+
+		width: 10%;
+	}
+
+	#langues p {
+
+		font-size: 1em;
+		font-weight: bold;
 	}
 
 	.elementsProjet {
@@ -1036,6 +1041,21 @@ h5 {
 
 		padding: 0;
 		padding-bottom: 5%;
+	}
+
+	.elementsProjet h2{
+
+		font-size: 1.2em;
+	}
+
+	.elementsProjet p {
+
+		font-size: 1em;
+	}
+
+	.descriptionProjet img {
+
+		margin-left: 5%;
 	}
 }
 

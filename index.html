@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="CV onePage de Di Vrusa Florian">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="Di Vrusa Florian, Florian, Di Vrusa, Florian CV, project Di Vrusa, CV Di Vrusa">
     <meta name="robots" content="index, follow">
     <meta name="geo.placename" content="Manage, Hainaut">
@@ -27,7 +28,7 @@
 
 		<!--Le "hoverHeader va me permettre d'afficher ces éléments au dessus du header sur mobile et tablettes, il sera non visible pour les grands"-->
 		<div id="florianHoverHeader">
-			<img src="Images/DiVrusa.JPG" alt="Di Vrusa Florian" title="Di Vrusa Florian">
+			<img src="Images/DiVrusa.jpg" alt="Di Vrusa Florian" title="Di Vrusa Florian">
 		</div>
 
 		<div id="sliderReseauxHoverHeader">
@@ -83,7 +84,7 @@
 				<div id="photo">
 	
 					<div id="florian">
-						<img src="Images/DiVrusa.JPG" alt="Di Vrusa Florian" title="Di Vrusa Florian">
+						<img src="Images/DiVrusa.jpg" alt="Di Vrusa Florian" title="Di Vrusa Florian">
 					</div>
 				
 						<!--Slider qui apparaitra au survol de ma photo-->
@@ -267,11 +268,11 @@
 
 				<h2 class="titreSections">Expériences professionnelles</h2>
 
-				<img class="imagesPro" src="Images/IconesPro/Cora.png" alt="Cora" title="Shopping Cora">
+				<img class="imagesPro" src="Images/IconesPro/cora.png" alt="Cora" title="Shopping Cora">
 				<div id="cora" class="etudesExp">
 					<h3>Hôte de caisse, réassortiment rayons</h3>
 					<h4><a href="http://lalouviere.shoppingcora.be/" title="Shopping Cora La Louvière" target="_blank">Shopping Cora : La Louvière</a></h4>
-					<img id="imageCoraResponsive" src="Images/IconesPro/Cora.png" alt="Cora" title="Shopping Cora">
+					<img id="imageCoraResponsive" src="Images/IconesPro/cora.png" alt="Cora" title="Shopping Cora">
 					<span>JUILLET 2016 - SEPTEMBRE 2016 | JUILLET 2017 - SEPTEMBRE 2017</span>	
 				</div>
 			</div>
@@ -327,43 +328,113 @@
 
 				<div id="projets">
 
-					<div class="elementsProjet" id="russie" onmouseenter="apparitionProjet(this)">
+					<div class="elementsProjet" onmouseenter="apparition('russie')" onmouseleave="disparition('russie')">
+
 						<h2>Voyagez en Russie</h2>
 						<p>HTML + CSS</p>
-						<div class="descriptionProjet">
+
+						<div class="descriptionProjet" id="russie">
+
 							<img src="Images/IconesProjets/russie.png" alt="Accueil du site">
 							<p>Site web réalisé durant ma première année à la HEH, il vous aidera à préparer votre voyage à travers la Russie</p>
 							<div class='liensProjets'>
-								<img src="Images/IconesReseauxSociaux/Github.png" alt="github" >
+
+								<img src="Images/IconesReseauxSociaux/github.png" alt="github" >
 								<a href="https://github.com/floDV1996/projetWebBac1" title="Lien Github" target="_blank">Github</a>
 								
 							</div>
 						</div>
 					</div>
 
-					<div class="elementsProjet">
+					<div class="elementsProjet" onmouseenter="apparition('bibliAuxFilms')" onmouseleave="disparition('bibliAuxFilms')">
+
 						<h2>Bibli-Aux-Films</h2>
 						<p>C# (WinForm)</p>
+
+						<div class="descriptionProjet" id="bibliAuxFilms">
+
+							<img src="Images/IconesProjets/bibli.png" alt="Accueil du site">
+							<p>Application réalisée en C# (WinForms). Elle permet à un utilisateur d'y enregistrer ses films favoris et de modifier ses caractéristiques.</p>
+
+							<div class='liensProjets'>
+
+								<img src="Images/IconesReseauxSociaux/github.png" alt="github" >
+								<a href="https://github.com/floDV1996/Bibli-aux-Films" title="Lien Github" target="_blank">Github</a>
+								
+							</div>
+
+						</div>
+
 					</div>
 
 					<div class="elementsProjet">
+
 						<h2>TFE (Bientôt disponible)</h2>
 						<p>Android</p>
+
 					</div>
 
-					<div class="elementsProjet">
+					<div class="elementsProjet" onmouseenter="apparition('ballAdventure')" onmouseleave="disparition('ballAdventure')">
+
 						<h2>Ball-Adventure</h2>
 						<p>Unity (C#)</p>
+
+						<div class="descriptionProjet" id="ballAdventure">
+
+							<img src="Images/IconesProjets/ball.png" alt="Menu">
+							<p>Application Android réalisée en C# et avec Unity. Le joueur doit parcourir les niveaux grâce à l'inclinaison de son téléphonne tout en évitant les obstacles</p>
+
+							<div class='liensProjets'>
+
+								<img src="Images/IconesReseauxSociaux/github.png" alt="github" >
+								<a href="https://github.com/floDV1996/Ball-Adventure" title="Lien Github" target="_blank">Github</a>
+								
+							</div>
+
+						</div>
+
 					</div>
 
-					<div class="elementsProjet">
+					<div class="elementsProjet" onmouseenter="apparition('onlineWallet')" onmouseleave="disparition('onlineWallet')">
+
 						<h2>OnlineWallet</h2>
 						<p>HTML + CSS + Javascript + PHP</p>
+
+						<div class="descriptionProjet" id="onlineWallet">
+
+							<img src="Images/IconesProjets/wallet.png" alt="Accueil du site">
+							<p>Site web qui permet aux utilisateurs de garder un oeil sur leurs dépenses et leurs revenus au quotidien</p>
+
+							<div class='liensProjets'>
+
+								<img src="Images/IconesReseauxSociaux/github.png" alt="github" >
+								<a href="https://github.com/floDV1996/OnlineWallet" title="Lien Github" target="_blank">Github</a>
+								
+							</div>
+
+						</div>
+
 					</div>
 
-					<div class="elementsProjet">
+					<div class="elementsProjet" onmouseenter="apparition('onePageCV')" onmouseleave="disparition('onePageCV')">
+
 						<h2>OnePageCV</h2>
 						<p>HTML + CSS + Javascript</p>
+
+						<div class="descriptionProjet" id="onePageCV">
+
+							<img src="Images/IconesProjets/onePageCV.png" alt="CV">
+							<p>Site web qui permet aux utilisateurs de garder un oeil sur leurs dépenses et leurs revenus au quotidien</p>
+
+							<div class='liensProjets'>
+
+								<img src="Images/IconesReseauxSociaux/github.png" alt="github" >
+								<a href="https://github.com/floDV1996/OnlineWallet" title="Lien Github" target="_blank">Github</a>
+								
+							</div>
+
+						</div>
+
 					</div>
 
 				</div>
@@ -375,4 +446,15 @@
 <!--Scripts Javascript-->
 <script type="text/javascript" src="Javascript/jquery-3.2.0.min.js"></script>
 <script type="text/javascript" src="Javascript/animations.js"></script>
+<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-97941523-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
