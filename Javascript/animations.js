@@ -2,19 +2,42 @@
 
 $('#photo').mouseenter(function() {
 	
+	/*----diminution de l'opacité de mon image au survol---*/
+	$('#florian img').stop(true).animate({
 
-	$('#florian img').animate({
 		opacity:0.5
+
 	}, 300);
-	$('#sliderReseaux ul').fadeIn('xslow');
+
+	/*----Apparition et translation du slider-----*/
+	$('#sliderReseaux ul').stop(true).fadeIn('xslow');
+
+	$('#sliderReseaux').stop(true).animate({
+
+		marginTop: '-4%'
+
+	}, 400);
+
 });
+
+/*---Lorsque la souris quitte la photo, on reviens à l'état initial-------*/
 
 $('#photo').mouseleave(function() {
 	
-	$('#florian img').animate({
+	$('#florian img').stop(true).animate({
+
 		opacity:1
+
 	}, 300);
-	$('#sliderReseaux ul').fadeOut('fast');
+
+	/*----Disparition et translation du slider----*/
+	$('#sliderReseaux ul').stop(true).fadeOut('fast');
+
+	$("#sliderReseaux").stop(true).animate({
+
+		marginTop: '-1%'
+
+	}, 200);
 });
 
 
@@ -30,23 +53,22 @@ $(document).ready(function() {
 
 /*----Apparition et disparition des infos de mes projets au survol----*/
 
-function apparition (id) {
+$(".elementsProjet").mouseenter(function() {
 
-	setTimeout(function apparitionProjet () {
-	
-		$("#"+id).fadeIn('slow');
+	/*---Récupération de l'id du div enfant de l'élément actuellement survolé----*/
+	var divAfficher = $(this).children('div').attr('id');
 
-	}, 900);
-
-}
-
-function disparition(id) {
-		
-	$("#"+id).fadeOut('10');
-	
-}
+	$("#"+divAfficher).fadeIn('slow')
 
 
+});
+
+$(".elementsProjet").mouseleave(function() {
+
+	var divDisparaitre = $(this).children('div').attr('id');
+
+	$("#"+divDisparaitre).stop(true).fadeOut('10');
+});
 
 
 
