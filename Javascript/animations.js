@@ -71,6 +71,34 @@ $(".elementsProjet").mouseleave(function() {
 });
 
 
+/*----FadeIn de mes sections en fonctions du scroll----*/
+/*----Par soucis d'esthétique, ceci n'est pas disponible sur mobile-----*/
+$(document).ready(function() {
+
+	/*----Détection du scroll-----*/
+
+	$(window).scroll(function(event) {
+		
+		/*-----Position de chaque section-----*/
+
+		$('.section').each(function() {
+
+			var basSection = $(this).offset().top + $(this).outerHeight();
+            var basFenêtre = $(window).scrollTop() + $(window).height();
+            
+            /*-----Quand la section est complètement visible dans la fenêtre, je la fais apparaitre-------*/
+            if( basFenêtre > basSection ){
+                
+                $(this).animate({'opacity':'1'},1000);
+                    
+            }
+		});
+
+	});
+	
+});
+
+
 
 
 

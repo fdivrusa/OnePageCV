@@ -2,9 +2,9 @@
 body {
 
 	font-family: Arial, sans-serif; 
-	background: url("Images/accueil.png");
-	background-repeat: repeat;
-	background-position: center;
+	background: url("Images/accueil.jpg");
+	background-repeat: no-repeat;
+	background-position: cover;
 	background-attachment: fixed;
 	margin: 0;
 }
@@ -403,7 +403,8 @@ h5 {
 	display: none;
 }
 
-/*-----Avec une seule expérience pro, je retire la bordure inférieure-----*/
+/*-----Avec une seule expérience pro, je retire la bordure inférieure, lorsque j'aurais plusieurs expériences
+		cela s'affichera comme pour mes études-----*/
 
 #cora {
 
@@ -519,7 +520,7 @@ h5 {
 
 .titreSections {
 
-	padding-top: 4%;
+	padding-top: 5%;
 	margin-bottom: 5%;	
 	font-size: 2em;
 
@@ -541,11 +542,12 @@ h5 {
 .section {
 
 	background-color: rgb(200, 200, 200);
-	margin-top: 2%;
+	margin-top: 3%;
 	margin-left: 25%;
 	margin-right: 5%;
 	padding-bottom: 1%;
 	box-shadow: 5px 5px 50px black;
+	opacity: 0;
 }
 
 
@@ -615,6 +617,8 @@ h5 {
 
 }
 
+
+/*-----Changement du design pour un meilleur accès sur mobile-----*/
 @media screen and (max-width: 1000px) {
 
 
@@ -834,6 +838,7 @@ h5 {
 		width: 100%;
 		margin: 0;
 		margin-top: 5%;
+		opacity: 1;
 
 	}
 
@@ -920,6 +925,8 @@ h5 {
 }
 
 
+
+/*-----Zoom sur certains éléments à partir de 650px------*/
 @media screen and (max-width: 650px) {
 
 	#florianHoverHeader {
@@ -1055,6 +1062,11 @@ h5 {
 	.descriptionProjet img {
 
 		margin-left: 5%;
+	}
+
+	.section {
+
+		opacity: 1;
 	}
 }
 
