@@ -75,6 +75,15 @@ $(".elementsProjet").mouseleave(function() {
 /*----Par soucis d'esthétique, ceci n'est pas disponible sur mobile-----*/
 $(document).ready(function() {
 
+	/*---Apparition de la première section après apparition du nom et du prénom----*/
+	setTimeout(function() {
+
+		$('#sectionEtudes').animate({
+		opacity: 1
+	}, 1500)
+
+	}, 500);
+
 	/*----Détection du scroll-----*/
 
 	$(window).scroll(function(event) {
