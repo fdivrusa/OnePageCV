@@ -706,6 +706,11 @@ h5 {
 		text-align: center;
 	}
 
+	#nomPrenomHoverHeader h1 {
+
+		font-size: 3em;
+	}
+
 	/*----Positionnement de mon bouton------*/
 
 	#cvBouton { 
