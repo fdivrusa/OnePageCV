@@ -78,7 +78,7 @@ $(document).ready(function() {
 	/*---Apparition de la première section après apparition du nom et du prénom----*/
 	setTimeout(function() {
 
-		$('#sectionEtudes').animate({
+		$('#sectionPresentation').animate({
 		opacity: 1
 	}, 1500)
 

@@ -80,28 +80,6 @@ header {
 	width: 100%;
 }
 
-/*-----Je place l'icone de présentation au centre--------*/
-
-#iconePresentation img {
-
-	margin-left: 45%;
-	width: 10%;
-	margin-bottom: 10%;
-	margin-top: 10%;
-}
-
-/*-----Mise en forme du texte de présentation------*/
-
-#textePresentation p{ 
-
-	text-align: justify;
-	margin:10%;
-	margin-top: 0;
-	margin-bottom: 15%;
-	font-size: 1.1em;
-
-}
-
 /*----Mise en forme et placement des logo(gsm, enveloppe, maison,...)----*/
 
 .logo img{
@@ -241,7 +219,7 @@ h4 {
 #section1 {
 
 	width: 80%;
-	margin-bottom: 11%;
+	margin-bottom: 5%;
 }
 
 /*------Placement du bloc contenant mon Nom Prénom + Etudes------*/
@@ -271,7 +249,7 @@ h5 {
 	margin: 0;
 	font-size: 1.2em;
 	line-height: 2em;
-	color: rgb(255, 213, 0);
+	color: cyan;
 	text-align: left;
 }
 
@@ -284,7 +262,7 @@ h5 {
 
 	display: inline-block;
 	position: absolute;
-	margin-top: -15%;
+	margin-top: -10%;
 	margin-left: 40%;
 	width: 20%;
 	transition: 1s;
@@ -317,7 +295,31 @@ h5 {
 	transition: 1s;
 }
 
-/*!!!!!!!Seconde section (MON PARCOURS SCOLAIRE)!!!!!!!*/
+
+/*!!!!!!!Seconde section (TEXTE DE PRESENTATION)!!!!!!/*
+
+/*-----Je place l'icone de présentation au centre--------*/
+
+#sectionPresentation img {
+
+	width: 4%;
+	margin-top: 3%;
+}
+
+/*-----Mise en forme du texte de présentation------*/
+
+#textePresentation p{ 
+
+	text-align: center;
+	margin-top: 0;
+	margin-right: 20%;
+	line-height: 1.5em;
+	font-size: 1.2em;
+
+}
+
+
+/*!!!!!!!Troisième section (MON PARCOURS SCOLAIRE)!!!!!!!*/
 
 /*-----Chaque "Etudes" est séparé par une bordure---*/
 
@@ -522,7 +524,7 @@ h5 {
 .titreSections {
 
 	padding-top: 5%;
-	margin-bottom: 5%;	
+	margin-bottom: 3%;	
 	font-size: 2em;
 
 }
