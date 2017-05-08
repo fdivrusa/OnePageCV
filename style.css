@@ -15,7 +15,7 @@ header {
 
 	float: left;
 	width: 20%;
-	height: 160em;
+	height: 3000px;
 	color: white;
 	background-color: rgb(0, 130, 200);
 	background: linear-gradient(to bottom, rgb(48, 64, 123), rgb(51, 156, 255));
@@ -84,9 +84,12 @@ header {
 
 .logo img{
 
-	float: left;
+	float: none;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 5%;
+	margin-top: 5%;
 	width: 15%;
-	margin-left: 5%;
 }
 
 /*----Séparation des différentes infos par une bordure----*/
@@ -102,9 +105,7 @@ header {
 
 .info p {
 
-	text-align: left;
-	margin-left: 25%;
-	padding-top: 4%;
+	text-align: center;
 	font-size: 1.2em;
 	font-family: Helvetica;
 }
@@ -129,7 +130,7 @@ header {
 
 #mail {
 
-	margin-left: 25%;
+
 
 }
 
@@ -137,7 +138,8 @@ header {
 
 h4 {
 
-	margin:0;	
+	margin:0;
+	text-align: center;	
 
 }
 
@@ -153,7 +155,7 @@ h4 {
 
 #mail p {
 
-	text-align: left;
+	text-align: center;
 	margin: 0;
 	margin-bottom: 15%;
 	font-size: 0.8em;
@@ -167,11 +169,16 @@ h4 {
 	border-bottom: 1px solid rgb(0, 46, 200);
 }
 
+#competences {
+
+	margin-top: 10%;
+}
+
 #competences h3 {
 
+	text-align: center;
 	line-height: 1.5em;
-	margin-left: 22%;
-	padding-top: 5%;
+	padding-top: 2%;
 	padding-right: 2%;
 
 }
@@ -249,7 +256,7 @@ h5 {
 	margin: 0;
 	font-size: 1.2em;
 	line-height: 2em;
-	color: cyan;
+	color: #202123;
 	text-align: left;
 }
 
@@ -559,58 +566,21 @@ h5 {
 
 @media screen and (max-width: 1366px) {
 
+
+	header {
+
+		height: 2500px;
+	}
+
+/*-----Ajustement de la marge supérieure pour abaisser un peu l'icone de téléphone fixe-----*/
+
+	#telFixe {
+
+		margin-top: 10%;
+	}	
+
 /*-----Placement de mes icones au dessus des informations et "centrages des infos"(Sinon les adresses mails dépassent du header en dessous de 1366px)------*/
 
-	.logo img {
-
-		float: none;
-		display: block;
-		margin: 0 auto;
-		margin-bottom: 5%;
-
-	}
-
-	.info {
-
-		margin-bottom: 10%;
-	}
-
-	.info p {
-
-		text-align: center;
-		margin: 0 auto;
-	}
-
-	#textePresentation p {
-
-		text-align: center;
-	}
-
-	#bordureMail {
-
-		margin-bottom: 10%;
-	}
-
-	#competences h3 {
-
-		text-align: center;
-		margin: 0 auto;
-		margin-bottom: 10%;
-	}
-
-	#mail {
-
-		text-align: center;
-		margin: 0 auto;
-	}
-
-	#mail p {
-
-		text-align: center;
-		margin: auto;
-		margin-bottom: 10%;
-
-	}
 
 	#cvBouton {
 
@@ -622,7 +592,7 @@ h5 {
 
 
 /*-----Changement du design pour un meilleur accès sur mobile-----*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
 
 	body {
 
@@ -690,6 +660,13 @@ h5 {
 
 	text-decoration: none;
 	border: 0;
+	}
+
+	/*----Début de mon header-----*/
+
+	#telFixe {
+
+		padding-top: 4%;
 	}
 
 	/*-----Section 1 avec Nom, Prénom...----*/
@@ -806,6 +783,11 @@ h5 {
 
 	/*-----Competences------*/
 
+	#competences {
+
+		margin-top: 5%;
+	}
+
 	#competences h3 {
 
 		padding: 0;
@@ -835,6 +817,7 @@ h5 {
 
 		width: 30%;
 		margin: 0 auto;
+		padding-bottom: 5%;
 
 	}
 
