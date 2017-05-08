@@ -106,7 +106,7 @@ header {
 .info p {
 
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	font-family: Helvetica;
 }
 
@@ -126,21 +126,18 @@ header {
 
 }
 
-/*---J'ajuste la marge gauche pour placer correctement mon bloc d'adresses---*/
+/*----Je retire la bordure de mes adresses---*/
+
+#mail h4 {
+
+	margin: 0;
+}
+
+/*----J'aligne mon texte-----*/
 
 #mail {
 
-
-
-}
-
-/*---Je retire les marges pour mes adresses mails-----*/
-
-h4 {
-
-	margin:0;
-	text-align: center;	
-
+	text-align: center;
 }
 
 /*----Mise en forme du lien pour envoyer un mail----*/
@@ -155,11 +152,9 @@ h4 {
 
 #mail p {
 
-	text-align: center;
 	margin: 0;
 	margin-bottom: 15%;
 	font-size: 0.8em;
-
 }
 
 /*----Ajout d'une bordure en dessous de mes adresses mails----*/
