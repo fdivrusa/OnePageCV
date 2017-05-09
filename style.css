@@ -332,6 +332,11 @@ h5 {
 	border-bottom: solid 2px  rgb(0, 100, 200);
 }
 
+.etudesExp h4 {
+
+	margin: 0;
+}
+
 
 .etudesExp h3 {
 
@@ -583,6 +588,20 @@ h5 {
 		transition: 1s;
 	}
 
+/*-----Je met 2 projets par ligne------*/
+
+	.elementsProjet {
+
+		display: table;
+		width: 40%;
+		border: solid 2px black;
+		margin: 0 0 2vw 0; /*Avec le VW, Firefox prend bien en compte les margin verticales, si je laisse tout en %, il y a certains bug*/
+		background-color: rgb(51, 156, 255);
+		line-height: 1.4em;
+		height: 100px;
+		padding: 0;
+		transition: 2s;
+	}
 }
 
 
