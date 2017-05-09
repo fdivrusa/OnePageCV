@@ -592,15 +592,7 @@ h5 {
 
 	.elementsProjet {
 
-		display: table;
 		width: 40%;
-		border: solid 2px black;
-		margin: 0 0 2vw 0; /*Avec le VW, Firefox prend bien en compte les margin verticales, si je laisse tout en %, il y a certains bug*/
-		background-color: rgb(51, 156, 255);
-		line-height: 1.4em;
-		height: 100px;
-		padding: 0;
-		transition: 2s;
 	}
 }
 
