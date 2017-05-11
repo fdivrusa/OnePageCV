@@ -15,7 +15,7 @@ header {
 
 	float: left;
 	width: 20%;
-	height: 3000px;
+	height: 3250px;
 	color: white;
 	background-color: rgb(0, 130, 200);
 	background: linear-gradient(to bottom, rgb(48, 64, 123), rgb(51, 198, 255));
@@ -28,6 +28,25 @@ header {
 #choixLangues  {
 
 	float: right;
+	font-size: 1.5em;
+	margin-top: 2%;
+	width: 10%;
+}
+
+#choixLangues a {
+
+	color: black;
+	text-decoration: none;
+	background-color: rgb(0, 180, 255);
+	padding: 2%;
+	margin-left: 5%;
+	box-shadow: 5px 5px 10px black;
+
+}
+
+#choixLangues a:hover {
+
+	padding: 3%;
 }
 
 /*---Code concernant le slider----*/
@@ -47,7 +66,7 @@ header {
 #sliderReseaux ul {
 
 	list-style-type: none;
-	display: none;
+	display: block;
 }
 
 #sliderReseaux ul li {
@@ -130,6 +149,7 @@ header {
 #texteAdresse p {
 
 	padding: 0;
+	line-height: 1.4em;
 	margin-bottom: 15%;
 
 }
@@ -139,6 +159,8 @@ header {
 #mail h4 {
 
 	margin: 0;
+	margin-bottom: 1%;
+	font-size: 1.1em
 }
 
 /*----J'aligne mon texte-----*/
@@ -180,6 +202,7 @@ header {
 #competences h3 {
 
 	text-align: center;
+	font-size: 1.5em;
 	line-height: 1.5em;
 	padding-top: 2%;
 	padding-right: 2%;
@@ -489,6 +512,7 @@ h5 {
 
 
 /*------Transition CSS au survol-----*/
+
 .elementsProjet:hover {
 
 	background-color: rgb(0, 100, 200);
@@ -497,11 +521,26 @@ h5 {
 	transition: 1s;
 }
 
+/*---N'ayant encore rien dans mon "TFE", il ne bougera pas au survol-----*/
+
+#TFE:hover {
+
+	display: table;
+	width: 28%;
+	border: solid 2px black;
+	margin: 0 0 2vw 0; /*Avec le VW, Firefox prend bien en compte les margin verticales, si je laisse tout en %, il y a certains bug*/
+	background-color: rgb(51, 156, 255);
+	line-height: 1.4em;
+	height: 100px;
+	padding: 0;
+	transition: 2s;
+}
+
 /*-----Ajout d'une description de mes projets lors du survol------*/
 
 .descriptionProjet {
 
-	display: none;
+	display: table;
 }
 
 .descriptionProjet img {
@@ -621,6 +660,7 @@ h5 {
 		height: auto;
 	}
 
+
 	#florian {
 
 		display: none;
@@ -731,6 +771,19 @@ h5 {
 	background: rgb(255, 213, 0); 
 
 	}
+
+	/*----Placement du choix de la langue centré en dessous du bouton----*/
+
+	#choixLangues {
+
+		float: none;
+		margin: 0 auto;
+		width: 15%;
+		margin-top: 5%;
+		text-align: center;
+
+	}
+
 
 	/*----Section de présentation-----*/
 

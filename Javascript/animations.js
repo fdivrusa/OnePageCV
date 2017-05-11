@@ -1,3 +1,19 @@
+/*----Lorsque la page est chargée, je cache ce qui doit l'être-----*/
+
+$(document).ready(function() {
+
+	/*---Je cache toute mes descriptions de projets-----*/
+	$('.descriptionProjet').each(function() {
+		
+		$(this).hide();
+		console.log($(this));
+	});
+
+	/*----Je cache le slider----*/
+	$('#sliderReseaux ul').hide();
+});
+
+
 /*----Au survol de ma photo, l'utilisateur découvrira mes réseaux sociaux----*/
 
 $('#photo').mouseenter(function() {
@@ -54,6 +70,7 @@ $(document).ready(function() {
 /*----Apparition et disparition des infos de mes projets au survol----*/
 
 $(".elementsProjet").mouseenter(function() {
+
 
 	/*---Récupération de l'id du div enfant de l'élément actuellement survolé----*/
 	var divAfficher = $(this).children('div').attr('id');
