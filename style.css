@@ -23,31 +23,6 @@ header {
 
 }
 
-/*---Lien pour changer de langues----*/
-
-#choixLangues  {
-
-	float: right;
-	font-size: 1.5em;
-	margin-top: 2%;
-	width: 10%;
-}
-
-#choixLangues a {
-
-	color: black;
-	text-decoration: none;
-	background-color: rgb(0, 180, 255);
-	padding: 2%;
-	margin-left: 5%;
-	box-shadow: 5px 5px 10px black;
-
-}
-
-#choixLangues a:hover {
-
-	padding: 3%;
-}
 
 /*---Code concernant le slider----*/
 
@@ -286,9 +261,40 @@ h5 {
 	text-align: left;
 }
 
+/*---Je cache le bouton qui apparait dans la version mobile---*/
 #cvBoutonHoverHeader {
 
 	display: none;
+}
+
+
+/*---Lien pour changer de langues----*/
+
+#choixLangues  {
+
+	float: right;
+	font-size: 1.5em;
+	margin-top: 2%;
+	width: 10%;
+}
+
+#choixLangues a {
+
+	color: black;
+	text-decoration: none;
+	background-color: rgb(0, 180, 255);
+	padding: 2%;
+	margin-left: 5%;
+	box-shadow: 5px 5px 10px black;
+	transition: 0.5s;
+
+}
+
+#choixLangues a:hover {
+
+	padding: 5%;
+	transition: 0.5s;
+	box-shadow: 10px 10px 15px black;
 }
 
 #cvBouton { 
@@ -298,8 +304,6 @@ h5 {
 	margin-top: -10%;
 	margin-left: 40%;
 	width: 20%;
-	transition: 1s;
-
  }
 
 /*---Placement du bouton de téléchargement de CV----*/
@@ -315,6 +319,7 @@ h5 {
 	text-decoration: none;
 	margin-bottom: 20%;
 	background: rgb(255, 213, 0); 
+	box-shadow: 5px 5px 10px black;
 	transition: 1s;
 
 }
@@ -325,6 +330,7 @@ h5 {
 
 	background:rgb(132, 243, 255);
 	padding: 10%;
+	box-shadow: 15px 15px 20px black;
 	transition: 1s;
 }
 
