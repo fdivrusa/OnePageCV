@@ -6,7 +6,6 @@ $(document).ready(function() {
 	$('.descriptionProjet').each(function() {
 		
 		$(this).hide();
-		console.log($(this));
 	});
 
 	/*----Je cache le slider----*/

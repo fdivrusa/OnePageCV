@@ -4,7 +4,6 @@ body {
 	font-family: Arial, sans-serif; 
 	background: url("Images/accueil.png");
 	background-repeat: repeat;
-	background-position: cover;
 	background-attachment: fixed;
 	margin: 0;
 }
@@ -575,7 +574,6 @@ h5 {
 .lienProjets a {
 
 	float: left;
-	text-align: none;
 	margin-left: 0;
 }
 
@@ -989,7 +987,7 @@ h5 {
 
 
 
-/*-----Zoom sur certains éléments à partir de 650px------*/
+/*-----Agrandissement sur certains éléments à partir de 650px------*/
 @media screen and (max-width: 650px) {
 
 	#florianHoverHeader {
@@ -1018,6 +1016,11 @@ h5 {
 	#cvBoutonHoverHeader a {
 
 		padding: 5%;
+	}
+
+	#choixLangues {
+
+		width: 30%;
 	}
 
 	#iconePresentation img{
@@ -1076,11 +1079,6 @@ h5 {
 		font-size: 1em;
 		margin-top: 10%;
 		margin-bottom: 5%;
-	}
-
-	.etudesExp span {
-
-		margin
 	}
 
 	#imageCoraResponsive {
