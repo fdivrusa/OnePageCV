@@ -18,9 +18,16 @@ header {
 	height: 3000px;
 	color: white;
 	background-color: rgb(0, 130, 200);
-	background: linear-gradient(to bottom, rgb(48, 64, 123), rgb(51, 156, 255));
+	background: linear-gradient(to bottom, rgb(48, 64, 123), rgb(51, 198, 255));
 	box-shadow: 5px 5px 15px black;
 
+}
+
+/*---Lien pour changer de langues----*/
+
+#choixLangues  {
+
+	float: right;
 }
 
 /*---Code concernant le slider----*/
@@ -106,7 +113,8 @@ header {
 .info p {
 
 	text-align: center;
-	font-size: 1.4em;
+	font-size: 1.2em;
+	line-height: 1em;
 	font-family: Helvetica;
 }
 
@@ -153,7 +161,7 @@ header {
 #mail p {
 
 	margin: 0;
-	margin-bottom: 15%;
+	margin-bottom: 10%;
 	font-size: 0.8em;
 }
 
@@ -190,7 +198,7 @@ header {
 
 #iconesCompProg img{
 
-  width: 22%;
+  width: 21%;
   margin-top: 5%;
   margin-left: 10%;
 
