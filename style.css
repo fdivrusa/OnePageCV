@@ -531,7 +531,6 @@ h5 {
 #TFE:hover {
 
 	display: table;
-	width: 28%;
 	border: solid 2px black;
 	margin: 0 0 2vw 0; /*Avec le VW, Firefox prend bien en compte les margin verticales, si je laisse tout en %, il y a certains bug*/
 	background-color: rgb(51, 156, 255);
@@ -539,6 +538,7 @@ h5 {
 	height: 100px;
 	padding: 0;
 	transition: 2s;
+	
 }
 
 /*-----Ajout d'une description de mes projets lors du survol------*/
@@ -550,6 +550,7 @@ h5 {
 
 .descriptionProjet img {
 
+	margin-top: 5%; 
 	width: 40%;
 	float: left;
 }
@@ -568,6 +569,7 @@ h5 {
 	margin-right: 5%;
 	margin-left: 5%;
 	float: left;
+	margin-top: 0;
 
 }
 
@@ -620,7 +622,7 @@ h5 {
 
 	header {
 
-		height: 2500px;
+		height: 2800px;
 	}
 
 /*-----Ajustement de la marge supérieure pour abaisser un peu l'icone de téléphone fixe-----*/
@@ -1123,6 +1125,11 @@ h5 {
 	.descriptionProjet img {
 
 		margin-left: 5%;
+	}
+
+	.liensProjets {
+
+		margin-top: 10%;
 	}
 
 	.section {
